@@ -1,0 +1,8 @@
+
+icrawler
+Pillow
+scikit-learn
+matplotlib
+seaborn
+tqdm
+opencv-python
