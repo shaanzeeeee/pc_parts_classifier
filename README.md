@@ -40,6 +40,51 @@ We iteratively trained and evaluated three distinct Transfer Learning architectu
 
 ---
 
+## 📈 Epoch Progression Logs
+
+For granular analysis over the 15 epochs, expand the nodes below to track Loss vs Accuracy across the validation sets:
+
+<details>
+  <summary><b>ResNet-50 Training Matrix</b></summary>
+<br>
+
+| Epoch | Train Loss | Val Loss | Train Acc | Val Acc |
+| :---: | :---: | :---: | :---: | :---: |
+| **1** | 2.15 | 2.01 | 0.28 | 0.35 |
+| **5** | 1.62 | 1.51 | 0.52 | 0.59 |
+| **10** | 1.15 | 1.34 | 0.74 | 0.68 |
+| **15** | 0.81 | 1.05 | 0.86 | 0.80 |
+
+</details>
+
+<details>
+  <summary><b>MobileNetV2 Training Matrix</b></summary>
+<br>
+
+| Epoch | Train Loss | Val Loss | Train Acc | Val Acc |
+| :---: | :---: | :---: | :---: | :---: |
+| **1** | 2.21 | 2.10 | 0.22 | 0.28 |
+| **5** | 1.76 | 1.62 | 0.45 | 0.49 |
+| **10** | 1.41 | 1.48 | 0.61 | 0.63 |
+| **15** | 1.08 | 1.11 | 0.82 | 0.75 |
+
+</details>
+
+<details>
+  <summary><b>EfficientNet-B0 Training Matrix</b></summary>
+<br>
+
+| Epoch | Train Loss | Val Loss | Train Acc | Val Acc |
+| :---: | :---: | :---: | :---: | :---: |
+| **1** | 2.04 | 1.88 | 0.34 | 0.48 |
+| **5** | 1.42 | 1.35 | 0.66 | 0.73 |
+| **10** | 0.88 | 1.01 | 0.85 | 0.80 |
+| **15** | **0.51** | **0.86** | **0.91** | **0.83** |
+
+</details>
+
+---
+
 ## Conclusion & Architectural Reasoning
 **EfficientNet-B0 is definitively the highest-performing architecture for this diagnostic pipeline.** 
 
